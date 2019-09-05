@@ -5,4 +5,8 @@ class Triangle
     @side_2 = side_2
     @side_3 = side_3
   end 
+  
+  def kind()
+    
+  end 
 end
