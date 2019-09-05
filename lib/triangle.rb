@@ -1,9 +1,11 @@
 class Triangle
   # write code here
- def initialize(side_1,side_2,side_3)
-    @side_1 = side_1
-    @side_2 = side_2
-    @side_3 = side_3
+attr_accessor :side1, :side2, :side3
+  @sides = []
+
+  def initialize(side1, side2, side3)
+    @side1, @side2, @side3 = side1, side2, side3
+    @sides = [side1, side2, side3]
   end 
   
   def kind()
